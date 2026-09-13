@@ -1,0 +1,55 @@
+# ======================
+# Python Cache & Bytecode
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# ======================
+# Distribution / Build
+# ======================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ======================
+# Virtual Environments
+# ======================
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ======================
+# Test & Coverage Reports
+# ======================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.xml
+
+# ======================
+# Log Files
+# ======================
+logs/*.log
+
+# ======================
+# IDE / Editor Files
+# ======================
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+desktop.ini

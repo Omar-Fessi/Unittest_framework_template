@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run: Full Test Suite",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/run_tests.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+            // },
+            // {
+            //     "name": "Debug: Full Test Suite",
+            //     "type": "debugpy",
+            //     "request": "launch",
+            //     "program": "${workspaceFolder}/run_tests.py",
+            //     "console": "integratedTerminal",
+            //     "cwd": "${workspaceFolder}",
+            //     "justMyCode": false
+            // },
+            // {
+            //     "name": "Run: Current Testcase File",
+            //     "type": "debugpy",
+            //     "request": "launch",
+            //     "module": "unittest",
+            //     "args": ["-v", "tests.${fileBasenameNoExtension}"],
+            //     "console": "integratedTerminal",
+            //     "cwd": "${workspaceFolder}",
+            //     "justMyCode": true
+            // },
+            // {
+            //     "name": "Debug: Current Testcase File",
+            //     "type": "debugpy",
+            //     "request": "launch",
+            //     "module": "unittest",
+            //     "args": ["-v", "tests.${fileBasenameNoExtension}"],
+            //     "console": "integratedTerminal",
+            //     "cwd": "${workspaceFolder}",
+            //     "justMyCode": false
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+# ==============================================================================
+# requirements.txt -- Project dependencies
+# ==============================================================================
+#
+# Current state: this framework uses only the Python standard library.
+# No third-party packages are required to run the test suite.
+#
+# Add packages below as the project grows. Common additions:
+#
+#   requests>=2.31.0          # HTTP calls (REST API testing)
+#   selenium>=4.20.0          # Browser / UI automation
+#   playwright>=1.44.0        # Modern browser automation
+#   paramiko>=3.4.0           # SSH / SCP helpers
+#   pyserial>=3.5             # Serial / UART device communication
+#   psycopg2-binary>=2.9.9    # PostgreSQL database access
+#   pymysql>=1.1.0            # MySQL database access
+#   pyyaml>=6.0.1             # YAML config / fixture files
+#   python-dotenv>=1.0.1      # Load .env files for secrets / config
+#   pytest>=8.2.0             # Alternative runner (drop-in compatible)
+#   coverage>=7.5.0           # Code-coverage reports
+#   mock>=5.1.0               # Back-port of unittest.mock extras
+#
+# Install all uncommented packages with:
+#   pip install -r requirements.txt
+# ==============================================================================
